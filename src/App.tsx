@@ -6,15 +6,16 @@ import PrivacyPolicy from './pages/PrivacyPolicy';
 import DeleteAccount from './pages/DeleteAccount';
 import Contact from './pages/Contact';
 import Features from './pages/Features';
+import SafetyStandards from './pages/SafetyStandards';
 
 function App() {
   return (
     <Router>
-      <Layout>
-        <Routes>
+      <Layout>        <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/features" element={<Features />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/safety-standards" element={<SafetyStandards />} />
           <Route path="/delete-account" element={<DeleteAccount />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>

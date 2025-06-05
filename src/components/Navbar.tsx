@@ -29,11 +29,11 @@ const Navbar: React.FC = () => {
   useEffect(() => {
     setIsOpen(false);
   }, [location]);
-
   const navLinks = [
     { name: 'Home', path: '/' },
     { name: 'Features', path: '/features' },
     { name: 'Privacy Policy', path: '/privacy-policy' },
+    { name: 'Safety Standards', path: '/safety-standards' },
     { name: 'Delete Account', path: '/delete-account' },
     { name: 'Contact', path: '/contact' },
   ];
